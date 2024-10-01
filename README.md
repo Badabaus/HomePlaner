@@ -27,23 +27,23 @@ Um das Projekt lokal auszuführen, folge diesen Schritten:
    git clone https://github.com/dein-benutzername/todo-app.git
    cd todo-app
 
-   ```
+   
 
 2. **Abhängigkeiten installieren**:
 
 Stelle sicher, dass Node.js und npm installiert sind. Führe dann den folgenden Befehl aus:
 
-    ```bash
+    
     npm install
-    ```
+    
 
 3. **App starten**
 
 Verwende den folgenden Befehl, um die App in der Entwicklungsumgebung zu starten:
 
-    ```bash
+    
     npm start
-    ```
+    
 
 ##App-Struktur
 
