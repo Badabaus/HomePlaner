@@ -27,8 +27,6 @@ Um das Projekt lokal auszuführen, folge diesen Schritten:
    git clone https://github.com/dein-benutzername/todo-app.git
    cd todo-app
 
-   
-
 2. **Abhängigkeiten installieren**:
 
 Stelle sicher, dass Node.js und npm installiert sind. Führe dann den folgenden Befehl aus:
@@ -88,7 +86,6 @@ Die Filterung der Todos basiert auf der filteredOption im Zustand der Todos.tsx:
 
 Die Filterung erfolgt durch diese Logik:
 
-    ```bash
     const filteredTodos = todos.filter(todo => {
 
     if (filteredOption === 'completed') {
@@ -98,4 +95,3 @@ Die Filterung erfolgt durch diese Logik:
     }
     return true; // Wenn 'all' ausgewählt ist
     });
-    ```
